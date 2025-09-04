@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zynova Remedies Pvt Ltd</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <header>
+    <div class="left">
+      <a href="#">Facebook</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+    </div>
+    <div class="right">
+      <span>📞 +91-9876543210</span>
+      <span>✉ info@zynovaremedies.com</span>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <h2>Zynova Remedies</h2>
+    </div>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div class="carousel" id="carousel">
+  <img src="https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?cs=srgb&dl=pexels-pixabay-139398.jpg&fm=jpg" class="active" alt="Pharma Lab">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN3YNDqQ2hIO7yDlZKxXiqO9GTsibnPFizpg&s" alt="Medicine Research">
+  <img src="https://wallpapers.com/images/hd/pharmacy-background-rgw2nzvgoqj34scj.jpg" alt="Healthcare Innovation">
+  <img src="https://images.pexels.com/photos/3683051/pexels-photo-3683051.jpeg?cs=srgb&dl=pexels-shvetsa-3683051.jpg&fm=jpg" alt="Pharma Manufacturing">
+  <button class="arrow left" onclick="prevSlide()">❮</button>
+  <button class="arrow right" onclick="nextSlide()">❯</button>
+</div>
+
+
+
+  <!-- About Us Section -->
+  <section class="about-home" id="about">
+    <h2>About Us</h2>
+    <p>
+      Zynova Remedies is a leading Indian-branded pharmaceutical company and part of the 
+      Zynova Group, established in 2012. With expertise in APIs, finished dosage 
+      formulations, and third-party manufacturing, we are committed to delivering 
+      innovative and affordable healthcare solutions. By integrating AI and machine 
+      learning, we are advancing drug discovery, optimizing processes, and improving 
+      diabetes management. Partnering with governments and institutions, we ensure 
+      essential medicines and vaccines reach those who need them most.
+    </p>
+    <a href="about.html" class="btn">Read More</a>
+  </section>
+
+  <!-- Promoters -->
+<section class="promoters">
+  <h2>Our Promoters</h2>
+  <div class="promoter-list">
+
+    <div class="promoter">
+      <img src="https://e0.pxfuel.com/wallpapers/509/237/desktop-wallpaper-pharmacy-pharmacist.jpg" alt="Promoter 1">
+      <p>Promoter 1 - Short description...</p>
+      <div class="more-text">
+        Promoter 1 has over 20 years of experience in pharmaceuticals, leading strategic
+        innovations in drug development and healthcare collaborations.
+      </div>
+      <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+    </div>
+
+    <div class="promoter">
+      <img src="https://e0.pxfuel.com/wallpapers/560/845/desktop-wallpaper-green-pill-cool-pharmacy.jpg" alt="Promoter 2">
+      <p>Promoter 2 - Short description...</p>
+      <div class="more-text">
+        Promoter 2 is a visionary leader focusing on AI-driven drug discovery, optimizing
+        processes, and improving access to affordable medicines worldwide.
+      </div>
+      <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+    </div>
+
+    <div class="promoter">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvzcgm554WDQbJWG1RNeBALe55v7pUvaFdBg&s" alt="Promoter 3">
+      <p>Promoter 3 - Short description...</p>
+      <div class="more-text">
+        Promoter 3 brings expertise in manufacturing, regulatory affairs, and partnerships
+        with government institutions to ensure quality healthcare delivery.
+      </div>
+      <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Products -->
+  <section class="products" id="products">
+  <h2>Our Products</h2>
+  <div class="product-grid">
+    <a href="products.html" class="product-card">
+      <img src="https://e0.pxfuel.com/wallpapers/69/841/desktop-wallpaper-pharmacy.jpg" alt="Tablets & Capsules">
+      <div class="label">Tablets & Capsules</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="https://hospitalnews.com/wp-content/uploads/2016/06/Safe-Medication-696x677.jpg" alt="Injections">
+      <div class="label">Injections</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="https://images.pexels.com/photos/3683040/pexels-photo-3683040.jpeg?cs=srgb&dl=pexels-shvetsa-3683040.jpg&fm=jpg" alt="Syrups & Liquids">
+      <div class="label">Syrups & Liquids</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="https://images.pexels.com/photos/3683051/pexels-photo-3683051.jpeg?cs=srgb&dl=pexels-shvetsa-3683051.jpg&fm=jpg" alt="Pharma R&D">
+      <div class="label">Pharma R&D</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="https://w0.peakpx.com/wallpaper/302/157/HD-wallpaper-white-blue-and-orange-medication-pill.jpg" alt="Medical Devices">
+      <div class="label">Medical Devices</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="https://images.newscientist.com/wp-content/uploads/2020/02/10122214/mainlovedrug.jpg" alt="Healthcare Solutions">
+      <div class="label">Healthcare Solutions</div>
+    </a>
+  </div>
+</section>
+
+
+
+  <!-- Articles -->
+  <section class="articles">
+    <h2>Our Articles & News</h2>
+    <div class="article-list">
+      <div class="article"><p>Article 1</p><a href="https://blogsite.com">Read More</a></div>
+      <div class="article"><p>Article 2</p><a href="https://blogsite.com">Read More</a></div>
+      <div class="article"><p>Article 3</p><a href="https://blogsite.com">Read More</a></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a><br>
+      <a href="about.html">About</a><br>
+      <a href="products.html">Products</a><br>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="column">
+      <h4>Contact Us</h4>
+      <p>📞 +91-9876543210</p>
+      <p>✉ info@zynovaremedies.com</p>
+      <a href="https://forms.gle/your-google-form-link" target="_blank">Query Form</a>
+    </div>
+    <div class="column">
+      <h4>Follow Us</h4>
+      <a href="#">Facebook</a><br>
+      <a href="#">LinkedIn</a><br>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
