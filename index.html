@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zynova Remedies Pvt Ltd</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <header class="top-bar"> 
+    <div class="top-left">
+      <a href="#">Facebook</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+    </div>
+    <div class="top-right">
+      <span>📞 +91-9876543210</span>
+      <span>✉ info@zynovaremedies.com</span>
+      <a href="contact.html" class="top-btn">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+      <img src="Zynova Logo (1).svg" alt="Zynova Remedies Logo" />
+    </a>
+    </div>
+    <div class="menu" id="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Hamburger Icon -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div class="carousel" id="carousel">
+  <img src="home_carausal_images/1.svg" class="active" alt="Pharma Lab">
+  <img src="home_carausal_images/2.svg" alt="Medicine Research">
+  <img src="home_carausal_images/3.svg" alt="Healthcare Innovation">
+  <img src="home_carausal_images/4.svg" alt="Pharma Manufacturing">
+  <img src="home_carausal_images/5.svg" alt="New Innovations">
+  <button class="arrow left" onclick="prevSlide()">❮</button>
+  <button class="arrow right" onclick="nextSlide()">❯</button>
+</div>
+
+
+
+  <!-- About Us Section -->
+  <section class="about-home" id="about">
+    <h2>About Us</h2>
+    <p>
+      Zynova Remedies is a leading Indian-branded pharmaceutical company and part of the 
+      Zynova Group, established in 2012. With expertise in APIs, finished dosage 
+      formulations, and third-party manufacturing, we are committed to delivering 
+      innovative and affordable healthcare solutions. By integrating AI and machine 
+      learning, we are advancing drug discovery, optimizing processes, and improving 
+      diabetes management. Partnering with governments and institutions, we ensure 
+      essential medicines and vaccines reach those who need them most.
+    </p>
+    <a href="about.html" class="btn">Read More</a>
+  </section>
+
+  <!-- Promoters -->
+<section class="promoters">
+  <h2>Our Promoters</h2>
+  <div class="promoter-list">
+
+    <div class="promoter">
+      <img src="promoters_pics/promoter3.svg" alt="Promoter 1">
+      <p>UBICA LIFE SCIENCES</p>
+      <div class="more-text">
+        A reputed pharmaceutical company with vast experience in the International trade of wide range of Pharmaceutical and Allied products in manufacturing as well as Merchant Exporting activities.
+      </div>
+      <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+    </div>
+
+    <div class="promoter">
+      <img src="promoters_pics/promoter1.svg" alt="Promoter 2">
+      <p>RS INFOTEK</p>
+      <div class="more-text">
+        RS INFOTEK is a visionary leader focusing on AI-driven drug discovery, optimizing
+        processes, and improving access to affordable medicines worldwide.
+      </div>
+      <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+    </div>
+
+    <div class="promoter">
+      <img src="promoters_pics/promoter2.svg" alt="Promoter 3">
+      <p>KAG BIOTEK</p>
+      <div class="more-text">
+       Kag Biotech Private Limited is an active, incorporated Indian company established in 2012 in Kanpur, Uttar Pradesh, 
+       operating as a non-government company in the healthcare and manufacturing sectors, specifically in the repair and installation 
+       of medical instruments. 
+      </div>
+      <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Products -->
+  <section class="products" id="products">
+  <h2>Our Products</h2>
+  <div class="product-grid">
+    <a href="products.html" class="product-card">
+      <img src="product_category_pics/t2dm.svg" alt="Tablets & Capsules">
+      <div class="label">Management of T2DM</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="product_category_pics/dyslipidemia.svg" alt="Injections">
+      <div class="label">Management of Dyslipidemia</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="product_category_pics/protein.svg" alt="Syrups & Liquids">
+      <div class="label">Protein Supplement</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="product_category_pics/therapy.svg" alt="Pharma R&D">
+      <div class="label">Essential Co-Therapy</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="product_category_pics/M.E.svg" alt="Medical Devices">
+      <div class="label">Management of Post M.I., H.F., Angina & Hypertension</div>
+    </a>
+    <a href="products.html" class="product-card">
+      <img src="product_category_pics/more.svg" alt="Healthcare Solutions">
+      <div class="label">Many more to come...</div>
+    </a>
+  </div>
+</section>
+
+
+
+  <!-- Articles -->
+  <section class="articles">
+    <h2>Our Articles & News</h2>
+    <div class="article-list">
+      <div class="article"><p>Article 1</p><a href="https://blogsite.com">Read More</a></div>
+      <div class="article"><p>Article 2</p><a href="https://blogsite.com">Read More</a></div>
+      <div class="article"><p>Article 3</p><a href="https://blogsite.com">Read More</a></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a><br>
+      <a href="about.html">About</a><br>
+      <a href="products.html">Products</a><br>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="column">
+      <h4>Contact Us</h4>
+      <p>📞 +91-9876543210</p>
+      <p>✉ info@zynovaremedies.com</p>
+      <a href="https://forms.gle/your-google-form-link" target="_blank">Query Form</a>
+    </div>
+    <div class="column">
+      <h4>Follow Us</h4>
+      <a href="#">Facebook</a><br>
+      <a href="#">LinkedIn</a><br>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
