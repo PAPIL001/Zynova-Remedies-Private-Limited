@@ -249,7 +249,7 @@ nav .menu a:hover {
   transition: 0.3s;
 }
 
-.about-home .btn:hover {
+.about-home .btn: hover {
   background: #005f8a;
 }
 
@@ -286,7 +286,7 @@ nav .menu a:hover {
 }
 
 
-.promoter:hover {
+.promoter: hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
@@ -509,3 +509,4 @@ footer a:hover {
 .hamburger.active span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
 }
+
